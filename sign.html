@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head lang="eng">
+    <meta charset="'UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <h2> Create Your Profile</h2>
+    <script>
+        function login(){
+            var name=document.querySelector('input[type="text"]').value;
+            var age=document.querySelector('input[type="number"]').value;
+            var current_addrees=document.querySelector('input[type="text"]').value;
+            var email=document.querySelector('input[type="email"]').value;
+            var qualification=document.querySelector('input[type="text"]').value;
+            var course_cgpa=document.querySelector('input[type="number"]').value;
+            var work_experience=document.querySelector('input[type="text"]').value;
+            alert("Login Sucessfull")
+        }
+        </script>
+    <form action="#">
+        <div>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+            <br>
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <br>
+            <input type="number" id="age" name="age" required>
+            <br>
+        </div>
+        <div>
+            <label for="current addrees">Current Address:</label>
+            <br>
+            <input type="text" id="current address" name="current address" required>
+            <br>
+        </div>
+        <div>
+            <label for ="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+
+        </div>
+        <div>
+            <label for="qualification">Qualification:</label>
+            <br>
+            <input type="text" id="qualification" name="qualification"required>
+            <br>
+              <label for="course cgpa">COURSE CGPA:</label>
+              <br>
+              <input type="number" id="course cgpa" name="course cgpa">
+              <br>
+
+        </div>
+        <div>
+            <label for="work experience">Work Experience:</label>
+            <br>
+            <input type="text" id="work experience" name="work experience">
+            <br>
+        </div>
+        <button onclick="login()">Submit    </button>
+    </form>
+</body>
+</html>
